@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: First test
         setup-command: "./setup.sh"
-        command: make sim
+        command: make -C tests
         timeout: 2
         max-score: 1
     - name: Autograding Reporter
